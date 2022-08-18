@@ -29,7 +29,7 @@ export default defineComponent({
   transform: translate(-50%, -50%);
 }
 .container a {
-    color: #0078AA;
+    color: #293462;
     font-weight: 600;
 }
 </style>

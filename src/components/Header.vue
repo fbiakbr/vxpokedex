@@ -16,7 +16,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
           <a class="nav-link" href="/home">Home</a>
-            <a class="nav-link" href="/pokemon">Pokemon</a>
+          <a class="nav-link" href="/pokemon">Pokemon</a>
           <a class="nav-link" href="/about">About</a>
           <a class="nav-link" href="/api">API</a>
         </div>
@@ -35,4 +35,19 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #293462;
+}
+.navbar-brand:hover {
+  color: #293462;
+}
+.navbar-nav a {
+  color: #293462;
+}
+.navbar-nav a:hover {
+  color: #293462;
+}
+</style>
